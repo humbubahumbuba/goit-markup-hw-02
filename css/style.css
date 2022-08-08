@@ -1,0 +1,109 @@
+/* background color #ffffff 
+title text color  #212121
+primary text color #757575
+accent color #2196F3
+button text accent color #FFFFFF
+logo #2196F3
+footer #2F303A*/
+:root{
+ --primary-text-color:#757575;
+ --title-text-color:#212121;
+ --accent-color:#2196F3;
+ --primary-bg-color:#ffffff;
+}
+body{
+    background-color:var(--primary-bg-color) ;
+    color:var(--primary-text-color);
+
+    font-family:Roboto,sans-serif ;
+}
+ .logo{
+    color:var(--accent-color);
+    text-decoration: none;
+ }
+.logo-head{
+    color: #000000;
+    text-decoration: none;
+}
+.logo-foot{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+/* site-nav */
+.site-nav .link{
+color: #212121;
+text-decoration: none;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color:var(--accent-color);
+}
+
+.section-title{
+    color: var(--title-text-color)
+}
+.choice-link{
+    text-decoration: none;
+}
+
+.secondary-text{
+    color: var(--primary-text-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+/* hero */
+
+.hero-title{
+    color: var(--title-text-color);
+}
+/* portfolio choice section */
+
+.choice{
+    color: var(--title-text-color);
+}
+.choice:hover,
+.choice:focus{
+    color: var(--accent-color);
+}
+
+/* footer */
+
+footer{
+    background-color: #2F303A;
+}
+
+footer .link{
+    color: #757575;
+    text-decoration: none;
+}
+footer .link:hover,
+footer .link:focus{
+    color: var(--accent-color);
+}
+.adress-link{
+    color:rgba(255, 255, 255, 1) ;
+}
+.adress-link:hover,
+.adress-link:focus{
+    color: var(--accent-color);
+}
+
+/* button */
+
+.button{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.button:hover,
+.button:focus{
+    color: var(--accent-color);
+}
+
+
+
+
