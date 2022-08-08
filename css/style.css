@@ -103,6 +103,9 @@ footer .link:focus{
 .button:focus{
     color: var(--accent-color);
 }
+.choice-link{
+    color:var(--title-text-color)
+}
 
 
 
