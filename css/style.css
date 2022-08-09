@@ -75,6 +75,9 @@ text-decoration: none;
 .choice:focus{
     color: var(--accent-color);
 }
+.choice-link {
+    color: var(--title-text-color)
+}
 
 /* footer */
 
@@ -108,9 +111,7 @@ footer .link:focus{
 .button:focus{
     color: var(--accent-color);
 }
-.choice-link{
-    color:var(--title-text-color)
-}
+
 
 
 
