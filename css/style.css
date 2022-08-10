@@ -179,6 +179,7 @@ body{
     letter-spacing: 0.03em;
 }
 .select{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -225,6 +226,7 @@ footer .link:focus{
 .button{
     color: var(--title-text-color);
     text-decoration: none;
+    font-family: inherit;
 }
 .button:hover,
 .button:focus{
