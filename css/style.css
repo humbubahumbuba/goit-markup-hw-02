@@ -93,6 +93,9 @@ body{
 .hero-button:focus{
  color: var(--accent-color);
 }
+.hero-button{
+    cursor: pointer;
+}
 
 /* features */
 
@@ -106,7 +109,6 @@ body{
 }
 .features-text{
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -123,7 +125,6 @@ body{
 }
 .team-text{
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -173,18 +174,23 @@ body{
 }
 .projects-text{
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
-.select{
+.select-button{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+
+    cursor: pointer;
+}
+.select-button:hover,
+.select-button:focus{
+    color: var(--accent-color);
 }
 
 /* footer */
@@ -211,7 +217,6 @@ footer .link:focus{
     color:rgba(255, 255, 255, 1) ;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -227,6 +232,12 @@ footer .link:focus{
     color: var(--title-text-color);
     text-decoration: none;
     font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
 .button:hover,
 .button:focus{
