@@ -16,6 +16,7 @@ body{
     color:var(--primary-text-color);
 
     font-family:Roboto,sans-serif ;
+    font-family: Raleway,sans-serif;
    
 }
  .logo{
@@ -56,6 +57,8 @@ body{
 .site-nav .link{
     color: #212121;
     text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14em;
@@ -68,6 +71,14 @@ body{
 
 .site-nav .link.current{
     color: var(--accent-color);
+}
+.auth-nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
 }
 /* hero */
 
