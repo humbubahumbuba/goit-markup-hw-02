@@ -15,6 +15,19 @@ body{
     background-color:var(--primary-bg-color) ;
     color:var(--primary-text-color);
 }
+
+img {
+    display: block
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
  .logo{
     color:var(--accent-color);
     text-decoration: none;
@@ -59,12 +72,6 @@ body{
 
 }
 
-.list{
-    list-style: none;
-}
-.link{
-    text-decoration: none;
-}
 /* site-nav */
 .site-nav .link{
     color: #212121;
@@ -130,6 +137,9 @@ body{
 }
 /* our team  */
 
+.section-team{
+    background-color: #F5F4FA;
+}
 .team-title{
     color: var(--title-text-color);
     font-weight: 500;
