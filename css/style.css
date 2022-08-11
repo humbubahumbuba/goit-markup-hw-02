@@ -91,7 +91,8 @@ body{
 }
 .hero-button:hover,
 .hero-button:focus{
- color: var(--accent-color);
+ color:#ffffff;
+ background-color: var(--accent-color);
 }
 .hero-button{
     cursor: pointer;
@@ -190,7 +191,8 @@ body{
 }
 .select-button:hover,
 .select-button:focus{
-    color: var(--accent-color);
+    color:#ffffff;
+    background-color: var(--accent-color);
 }
 
 /* footer */
@@ -241,7 +243,8 @@ footer .link:focus{
 }
 .button:hover,
 .button:focus{
-    color: var(--accent-color);
+    color:#ffffff;
+    background-color: var(--accent-color);
 }
 
 
